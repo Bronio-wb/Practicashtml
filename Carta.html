@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carta Para Mamá</title>
+    <link rel="stylesheet" href="stylecarta.css">
+</head>
+
+
+<body>
+   <header>
+    <h1>Te amo mi viejita 💖 </h1>
+   </header>
+   <main>
+    <div class="buzon" onclick="mostrarCarta()">
+        <img src="img/coraZON.jpg" alt="Buzón clásico de madera" class="buzon-imagen">
+        <div class="carta" id="carta">
+            <p><strong>Te amo viejita 💖</strong><br>
+                Hola mami, quiero hacer este pequeño gesto porque aunque no soy el hijo perfecto y puedo llegar a ser testarudo, además de dificil de manejar deseo decirte que te amo con cada parte de mi corazón.. Eres la mujer por la cual mi inspiración nunca se pierde, por ello dejame decirte que si existe otra vida despues de esta y se me permitiese elegir quien sería mi madre ten por seguro que te elegiría a ti una y mil veces.. Te amo viejita.</p>
+        </div>
+    </div>
+   </main>
+  
+      <script> 
+        function mostrarCarta() {
+            const carta = document.getElementById("carta");
+            carta.classList.add("mostrar");
+        }
+
+      </script>
+    
+</body>
+</html>
